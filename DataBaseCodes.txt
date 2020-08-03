@@ -1,0 +1,3 @@
+create database BankTransactions
+use BankTransactions;
+create table Bank(TransID integer PRIMARY KEY AUTO_INCREMENT,Debit integer,Balance integer);
